@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.header__img {
+  background-image: url(/assets/logo.svg);
+  height: 51px;
+  width: 64px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav p {
+  font: 500 22px "DM Sans";
+  margin-right: 32px;
+  color: #181717;
+}
+.preview {
+  margin-top: 128px;
+}
+.preview .img__arrow {
+  background-image: url(../assets/arrow.svg);
+  height: 39px;
+  width: 33.39px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 128px;
+}
+section .info {
+  display: flex;
+  align-items: center;
+}
+.preview .info h1 {
+  font: 500 60px "DM Sans";
+  color: #181717;
+  width: 360px;
+}
+.preview .info p {
+  font: 400 32px "DM Sans";
+  color: #606060;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+footer .networks {
+  display: flex;
+}
+
+footer .networks p {
+  margin-right: 30px;
+  font: 500 22px "DM Sans";
+  color: #181717;
+}
+footer .name {
+  font: 500 22px "DM Sans";
+  color: #2429af;
+}
