@@ -8,10 +8,13 @@
   font-style: normal;
 }
 body {
-  width: 1200px;
+  width: 1108px;
   margin: 0 auto;
   background-color: #e5e5e5;
 }
+
+/* ----------------------header------------------------- */
+
 header {
   display: flex;
   align-items: center;
@@ -19,7 +22,7 @@ header {
   margin-top: 15px;
 }
 .header__img {
-  background-image: url(/assets/logo.svg);
+  background-image: url(../assets/logo.svg);
   height: 51px;
   width: 64px;
   background-repeat: no-repeat;
@@ -33,6 +36,9 @@ header {
   margin-right: 32px;
   color: #181717;
 }
+
+/* -----------------main_section_preview------------------ */
+
 .preview {
   margin-top: 128px;
 }
@@ -56,12 +62,136 @@ section .info {
 .preview .info p {
   font: 400 32px "DM Sans";
   color: #606060;
+  padding-left: 128px;
 }
+
+/* -----------------portfolio1--------------- */
+
+.portfolio1 {
+  display: flex;
+}
+.projects {
+  margin-top: 83px;
+}
+section .portfolio1__text {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+}
+section .portfolio1__text .portfolio1__title {
+  font: 500 24px "DM Sans";
+  color: #181717;
+}
+section .portfolio1__text .portfolio1__data1 {
+  font: 400 22px "DM Sans";
+  color: #181717;
+  margin-top: 25px;
+}
+section .portfolio1__text .portfolio1__data2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 53px;
+}
+section .portfolio1__text .portfolio1__data3 {
+  font: 500 22px "DM Sans";
+  color: #181717;
+  margin-top: 167px;
+}
+
+.projects .portfolio1__img {
+  width: 620px;
+  height: 365px;
+  background-color: #606060;
+  margin-left: 124px;
+}
+.projects .line {
+  border: 1.5px solid #181717;
+  margin-top: 106px;
+}
+
+/* -----------------portfolio2--------------- */
+
+.portfolio2 {
+  display: flex;
+  margin-top: 83px;
+}
+section .portfolio2__text {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+}
+section .portfolio2__text .portfolio2__title {
+  font: 500 24px "DM Sans";
+  color: #181717;
+}
+section .portfolio2__text .portfolio2__data1 {
+  font: 400 22px "DM Sans";
+  color: #181717;
+  margin-top: 25px;
+}
+section .portfolio2__text .portfolio2__data2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 53px;
+}
+section .portfolio2__text .portfolio2__data3 {
+  font: 500 22px "DM Sans";
+  color: #181717;
+  margin-top: 167px;
+}
+
+.projects .portfolio2__img {
+  width: 620px;
+  height: 365px;
+  background-color: #606060;
+  margin-left: 124px;
+}
+
+/* -----------------portfolio3--------------- */
+
+.portfolio3{
+  display: flex;
+  margin-top: 83px;
+}
+section .portfolio3__text {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+}
+section .portfolio3__text .portfolio3__title {
+  font: 500 24px "DM Sans";
+  color: #181717;
+}
+section .portfolio3__text .portfolio3__data1 {
+  font: 400 22px "DM Sans";
+  color: #181717;
+  margin-top: 25px;
+}
+section .portfolio3__text .portfolio3__data2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 53px;
+}
+section .portfolio3__text .portfolio3__data3 {
+  font: 500 22px "DM Sans";
+  color: #181717;
+  margin-top: 167px;
+}
+
+.projects .portfolio3__img {
+  width: 620px;
+  height: 365px;
+  background-color: #606060;
+  margin-left: 124px;
+}
+
+/* ----------------------footer------------------------- */
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 120px;
+  margin-top: 126px;
+  margin: 126px 0 116px 0;
 }
 
 footer .networks {
