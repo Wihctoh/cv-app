@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+body {
+  width: 1108px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+/* ----------------------header------------------------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.header__img {
+  background-image: url(../assets/logo.svg);
+  height: 51px;
+  width: 64px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav p {
+  font: 500 22px "DM Sans";
+  margin-right: 32px;
+  color: #181717;
+}
+
+/* -------------------main_section preview--------------- */
+
+.preview {
+}
+.preview__about {
+}
+.preview__about h1 {
+  font: 500 60px "DM Sans";
+  color: #181717;
+}
+.preview__about .preview_text1 {
+  font: 400 24px "DM Sans";
+  color: #606060;
+}
+.preview__about .preview_text2 {
+  font: 400 24px "DM Sans";
+  color: #606060;
+}
+.preview .foto {
+  background-color: #606060;
+  width: 458px;
+  height: 406px;
+}
+
+/* -------------------main_section skills--------------- */
+
+/* -------------------footer--------------- */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 126px;
+  margin: 126px 0 116px 0;
+}
+
+footer .networks {
+  display: flex;
+}
+
+footer .networks p {
+  margin-right: 30px;
+  font: 500 22px "DM Sans";
+  color: #181717;
+}
+footer .name {
+  font: 500 22px "DM Sans";
+  color: #2429af;
+}
