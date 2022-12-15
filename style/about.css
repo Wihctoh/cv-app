@@ -20,6 +20,9 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
+  position: fixed;
+  top: 0;
+  width: 1108px;
 }
 .header__img {
   background-image: url(../assets/logo.svg);
@@ -33,8 +36,13 @@ header {
 }
 .header__nav p {
   font: 500 22px "DM Sans";
-  margin-right: 32px;
   color: #181717;
+}
+.header__nav p:hover {
+  text-decoration: underline;
+}
+.header__nav p:not(:last-child) {
+  margin-right: 32px;
 }
 
 /* -------------------main_section_preview--------------- */
@@ -111,6 +119,7 @@ header {
 .line {
   border: 2px solid #181717;
   margin-top: 111px;
+  background-color: #181717;
 }
 .feedback .contact {
   display: flex;
@@ -129,6 +138,10 @@ header {
   background-size: contain;
   margin-left: 41px;
   align-self: center;
+  position: relative;
+}
+.contact .arrow2:hover {
+  left: 5px;
 }
 .contact .email {
   font: 400 32px "DM Sans";
@@ -150,11 +163,14 @@ footer .networks {
 }
 
 footer .networks p {
-  margin-right: 30px;
   font: 500 22px "DM Sans";
   color: #181717;
 }
 footer .name {
   font: 500 22px "DM Sans";
   color: #2429af;
+}
+
+footer .networks p:not(:last-child) {
+  margin-right: 30px;
 }
