@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+body {
+  width: 1108px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+/* ----------------------header------------------------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.header__img {
+  background-image: url(../assets/logo.svg);
+  height: 51px;
+  width: 64px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav p {
+  font: 500 22px "DM Sans";
+  margin-right: 32px;
+  color: #181717;
+}
+
+/* -----------------main_section_contact------------------ */
+
+section h1 {
+  font: 500 60px "DM Sans";
+  color: #181717;
+  margin-top: 109px;
+}
+.contact_discr {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 32px;
+}
+
+/* -----------------main_section_contact------------------ */
+
+.contacts {
+  display: flex;
+}
+.contacts_input {
+  display: flex;
+  flex-direction: column;
+  width: 678px;
+  margin-top: 52px;
+}
+.contacts_input .email_input {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 22px;
+}
+.contacts_input .number_input {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 30px;
+  padding-left: 22px;
+}
+
+.contacts_input .next {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 162px;
+  height: 42px;
+}
+.contact_text {
+  margin: 44px 0 0 47px;
+  width: 395px;
+}
+.contact_text .contact_text1 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+}
+.contact_text .contact_text2 {
+  font: 400 22px "DM Sans";
+  color: #606060;
+  margin-top: 30px;
+}
+/* ----------------------footer------------------------- */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 126px;
+  margin: 126px 0 116px 0;
+}
+
+footer .networks {
+  display: flex;
+}
+
+footer .networks p {
+  margin-right: 30px;
+  font: 500 22px "DM Sans";
+  color: #181717;
+}
+footer .name {
+  font: 500 22px "DM Sans";
+  color: #2429af;
+}
