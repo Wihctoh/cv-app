@@ -37,15 +37,19 @@ header {
   color: #181717;
 }
 
-/* -------------------main_section preview--------------- */
+/* -------------------main_section_preview--------------- */
 
 .preview {
+  display: flex;
+  margin-top: 147px;
 }
 .preview__about {
+  width: 575px;
 }
 .preview__about h1 {
   font: 500 60px "DM Sans";
   color: #181717;
+  width: 480px;
 }
 .preview__about .preview_text1 {
   font: 400 24px "DM Sans";
@@ -54,21 +58,90 @@ header {
 .preview__about .preview_text2 {
   font: 400 24px "DM Sans";
   color: #606060;
+  margin-top: 20px;
 }
 .preview .foto {
   background-color: #606060;
-  width: 458px;
-  height: 406px;
+  width: 406px;
+  height: 458px;
+  margin-left: 95px;
 }
 
-/* -------------------main_section skills--------------- */
+/* -------------------main_section_skills--------------- */
+
+.skills {
+  margin-top: 67px;
+}
+.skills .skills__type1 {
+  display: flex;
+}
+.skills .skills__type2 {
+  display: flex;
+}
+.skills__type1__data1 {
+  font: 500 22px "DM Sans";
+  text-decoration-line: underline;
+  color: #181717;
+  width: 125px;
+}
+.skills__type1__data2 {
+  font: 400 20px "DM Sans";
+  color: #181717;
+  width: 436px;
+  margin-left: 63px;
+}
+.skills__type2__data1 {
+  font: 500 22px "DM Sans";
+  text-decoration-line: underline;
+  color: #181717;
+  width: 125px;
+}
+.skills__type2__data2 {
+  font: 400 20px "DM Sans";
+  color: #181717;
+  width: 436px;
+  margin-left: 63px;
+}
+.skills__type2 {
+  margin-top: 92px;
+}
+
+/* -------------------main_section_feedback--------------- */
+
+.line {
+  border: 2px solid #181717;
+  margin-top: 111px;
+}
+.feedback .contact {
+  display: flex;
+  margin-top: 63px;
+}
+.contact .answer {
+  font: 400 32px "DM Sans";
+  color: #181717;
+  width: 347px;
+}
+.contact .arrow2 {
+  background-image: url(/assets/arrow2.svg);
+  width: 21px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 41px;
+  align-self: center;
+}
+.contact .email {
+  font: 400 32px "DM Sans";
+  color: #181717;
+  margin-left: 392px;
+}
 
 /* -------------------footer--------------- */
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 126px;
+  margin-top: 135px;
   margin: 126px 0 116px 0;
 }
 
