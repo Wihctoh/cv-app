@@ -19,7 +19,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15px;
+  padding-top: 15px;
+  padding: 15px 15px 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #e5e5e5;
 }
 .header__img {
   background-image: url(../assets/logo.svg);
@@ -33,8 +39,16 @@ header {
 }
 .header__nav p {
   font: 500 22px "DM Sans";
-  margin-right: 32px;
   color: #181717;
+}
+.header__nav p:hover {
+  transition-delay: 0.25s;
+  transition-duration: 0.25s;
+  text-decoration: underline;
+  color: #DEB887;
+}
+.header__nav p:not(:last-child) {
+  margin-right: 32px;
 }
 
 /* -----------------main_section_contact------------------ */
@@ -112,9 +126,11 @@ footer .networks {
 }
 
 footer .networks p {
-  margin-right: 30px;
   font: 500 22px "DM Sans";
   color: #181717;
+}
+footer .networks p:not(:last-child) {
+  margin-right: 30px;
 }
 footer .name {
   font: 500 22px "DM Sans";
