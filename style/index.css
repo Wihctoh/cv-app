@@ -19,10 +19,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15px;
+  padding: 15px 15px 15px;
   position: fixed;
+  width: 100%;
   top: 0;
-  width: 1108px;
+  left: 0;
+  background-color: #e5e5e5;
 }
 .header__img {
   background-image: url(../assets/logo.svg);
@@ -38,11 +40,14 @@ header {
   font: 500 22px "DM Sans";
   color: #181717;
 }
-.header__nav p:hover {
-  text-decoration: underline;
-}
 .header__nav p:not(:last-child) {
   margin-right: 32px;
+}
+.header__nav p:hover {
+  text-decoration: underline;
+  transition-delay: 0.25s;
+  transition-duration: 0.25s;
+  color: #DEB887;
 }
 
 /* -----------------main_section_preview------------------ */
