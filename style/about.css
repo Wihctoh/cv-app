@@ -128,6 +128,7 @@ header {
 }
 .feedback .contact {
   display: flex;
+  justify-content: space-between;
   margin-top: 63px;
 }
 .contact .answer {
@@ -141,9 +142,7 @@ header {
   height: 24px;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-left: 41px;
-  align-self: center;
-  position: relative;
+  margin: 8px 380px 0 0;
 }
 .contact .arrow2:hover {
   left: 5px;
@@ -151,7 +150,6 @@ header {
 .contact .email {
   font: 400 32px "DM Sans";
   color: #181717;
-  margin-left: 392px;
 }
 
 /* -------------------footer--------------- */
